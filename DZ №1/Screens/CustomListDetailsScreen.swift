@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct CustomListDetailsScreen: View {
+    
+    @Binding var isActive: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct CustomListDetailsScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomListDetailsScreen()
+        Button("Press to dismiss") {
+            isActive = false
+        }
     }
 }

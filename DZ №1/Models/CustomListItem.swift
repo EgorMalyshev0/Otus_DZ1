@@ -6,8 +6,19 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct CustomListItem: Identifiable {
-    var id = UUID()
+    var id = UUID().uuidString
     var name: String
+}
+
+struct CustomListRow: View {
+        
+    var item: CustomListItem
+    
+    var body: some View {
+        Text(item.name)
+    }
+    
 }

@@ -11,11 +11,19 @@ struct FirstScreen: View {
     
     @EnvironmentObject var router: Router
     
+    @State private var selection: Int = 1
+    
     var body: some View {
-        Button(action: {
-            router.selection = 1
-        }, label: {
-            Text("Show 2nd tab")
-        })
+        VStack {
+            Button(action: {
+                router.isActive = true
+                router.selection = 1
+            }, label: {
+                Text("Show 2nd tab")
+            })
+            .padding()
+            Text("Choose which row to open:")
+            CustomPickerView()
+        }
     }
 }

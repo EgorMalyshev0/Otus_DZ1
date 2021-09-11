@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2EC80426E6902E00A5B1C4 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC80326E6902E00A5B1C4 /* ModalScreen.swift */; };
+		DE2EC80626E69A5000A5B1C4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC80526E69A5000A5B1C4 /* Router.swift */; };
 		DE6902B326DBDACC00607901 /* DZ__1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6902B226DBDACC00607901 /* DZ__1App.swift */; };
 		DE6902B526DBDACC00607901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6902B426DBDACC00607901 /* ContentView.swift */; };
 		DE6902B726DBDACE00607901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6902B626DBDACE00607901 /* Assets.xcassets */; };
 		DE6902BA26DBDACE00607901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6902B926DBDACE00607901 /* Preview Assets.xcassets */; };
+		DE6902C226DBE31D00607901 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6902C126DBE31D00607901 /* FirstScreen.swift */; };
+		DE99A6A426E55A7C006D5F0E /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99A6A326E55A7C006D5F0E /* SecondScreen.swift */; };
+		DE99A6A626E55ABC006D5F0E /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99A6A526E55ABC006D5F0E /* ThirdScreen.swift */; };
+		DE9A484A26ED0CBE00A958E6 /* CustomListDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A484926ED0CBE00A958E6 /* CustomListDetailsScreen.swift */; };
+		DEC7709926E923E800939961 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC7709826E923E800939961 /* CustomPickerView.swift */; };
+		DEFA1A7926E7CAB6002B5084 /* CustomListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA1A7826E7CAB6002B5084 /* CustomListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE2EC80326E6902E00A5B1C4 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		DE2EC80526E69A5000A5B1C4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		DE6902AF26DBDACC00607901 /* DZ №1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ №1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6902B226DBDACC00607901 /* DZ__1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZ__1App.swift; sourceTree = "<group>"; };
 		DE6902B426DBDACC00607901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE6902B626DBDACE00607901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6902B926DBDACE00607901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE6902BB26DBDACE00607901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6902C126DBE31D00607901 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		DE99A6A326E55A7C006D5F0E /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		DE99A6A526E55ABC006D5F0E /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		DE9A484926ED0CBE00A958E6 /* CustomListDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListDetailsScreen.swift; sourceTree = "<group>"; };
+		DEC7709826E923E800939961 /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		DEFA1A7826E7CAB6002B5084 /* CustomListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,10 @@
 			children = (
 				DE6902B226DBDACC00607901 /* DZ__1App.swift */,
 				DE6902B426DBDACC00607901 /* ContentView.swift */,
+				DEFA1A7B26E7CB05002B5084 /* Screens */,
+				DEFA1A7A26E7CAF1002B5084 /* Models */,
+				DE2EC80526E69A5000A5B1C4 /* Router.swift */,
+				DEC7709826E923E800939961 /* CustomPickerView.swift */,
 				DE6902B626DBDACE00607901 /* Assets.xcassets */,
 				DE6902BB26DBDACE00607901 /* Info.plist */,
 				DE6902B826DBDACE00607901 /* Preview Content */,
@@ -67,6 +87,26 @@
 				DE6902B926DBDACE00607901 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEFA1A7A26E7CAF1002B5084 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA1A7826E7CAB6002B5084 /* CustomListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEFA1A7B26E7CB05002B5084 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DE6902C126DBE31D00607901 /* FirstScreen.swift */,
+				DE99A6A326E55A7C006D5F0E /* SecondScreen.swift */,
+				DE99A6A526E55ABC006D5F0E /* ThirdScreen.swift */,
+				DE2EC80326E6902E00A5B1C4 /* ModalScreen.swift */,
+				DE9A484926ED0CBE00A958E6 /* CustomListDetailsScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +179,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6902B526DBDACC00607901 /* ContentView.swift in Sources */,
+				DE99A6A426E55A7C006D5F0E /* SecondScreen.swift in Sources */,
+				DE99A6A626E55ABC006D5F0E /* ThirdScreen.swift in Sources */,
+				DE2EC80626E69A5000A5B1C4 /* Router.swift in Sources */,
+				DE2EC80426E6902E00A5B1C4 /* ModalScreen.swift in Sources */,
+				DEFA1A7926E7CAB6002B5084 /* CustomListItem.swift in Sources */,
+				DEC7709926E923E800939961 /* CustomPickerView.swift in Sources */,
 				DE6902B326DBDACC00607901 /* DZ__1App.swift in Sources */,
+				DE6902C226DBE31D00607901 /* FirstScreen.swift in Sources */,
+				DE9A484A26ED0CBE00A958E6 /* CustomListDetailsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
